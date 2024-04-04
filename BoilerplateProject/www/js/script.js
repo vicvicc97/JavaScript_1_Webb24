@@ -1,1 +1,1 @@
-alert("Boilerplate script test")
+alert("Boilerplate script file test");
