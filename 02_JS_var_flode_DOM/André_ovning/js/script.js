@@ -1,5 +1,4 @@
 const namn = "André";
-let student = false;
 
 console.log(namn);
 console.log(namn);
@@ -23,3 +22,14 @@ if (student = true) {
     alert("André");
 }
 
+
+let time = 17;
+
+if(time > 15){
+    alert("it is not morning");
+}
+
+
+if(time < 22){
+    alert("it is evening");
+}
