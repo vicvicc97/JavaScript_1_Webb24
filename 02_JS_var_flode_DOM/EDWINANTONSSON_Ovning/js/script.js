@@ -9,7 +9,6 @@ if (testNum < 10) {
     else if (testNum > 10) {
         console.log("Bigger!");
     }
-
 const A = 10;
 const B = 10;
 console.log(A < B);
