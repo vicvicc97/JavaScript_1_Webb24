@@ -1,9 +1,6 @@
 
 
-let suma = 2+2;
+let sum = 2+2;
 
-
-console.log(suma);
-
-
-
+alert("This is a popup");
+console.log(sum);
