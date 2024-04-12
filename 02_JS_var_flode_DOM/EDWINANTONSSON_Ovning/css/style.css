@@ -2,3 +2,9 @@ body {
     background-color: lightseagreen;
     border: solid 10px black;
 }
+
+button {
+    width: auto;
+    height: 25px;
+    border-radius: 5px;
+}
