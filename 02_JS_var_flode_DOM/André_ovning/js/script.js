@@ -9,3 +9,5 @@ if(time > 15){
 }else{
     alert("is it something else")
 }
+
+console.log(sum);
