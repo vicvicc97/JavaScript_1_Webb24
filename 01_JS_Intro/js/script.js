@@ -1,12 +1,6 @@
 
 
-let suma = 2+2;
+let sum = 2+2;
 
-
-console.log(suma);
-
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
+alert("This is a popup");
+console.log(sum);
