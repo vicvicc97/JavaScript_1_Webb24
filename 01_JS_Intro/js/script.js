@@ -68,7 +68,7 @@ if(number > 0){
 
 /* If conditions can be nested. each code block (if, else if, or else)
 can have their own nested conditions */
-
+let time=40;
 if(time > 15){
  
     if(time === 15){
@@ -95,3 +95,41 @@ if(time > 15){
 }else{
     //DO SOMETHING
 }
+
+/* logical operators */
+
+let hour = 8;
+
+//log when hour is between 5 and 10
+//using and operator
+if (hour > 5 && hour < 10) {
+    console.log("hour is between 5 and 10");
+}
+
+console.log("boolean for hour > 5 && hour < 10 är: " + (hour > 5 && hour < 10));
+
+hour = 15;
+//log when hour is bigger than 5 or smaller than 10
+//using or operator
+if (hour > 5 || hour < 10) {
+    console.log("hour is 5 or 10");
+}
+
+
+let x = 5;
+console.log("let x = 5; " );
+console.log("(x>5) evaluates to: " +  (x>5) );
+console.log("!(x>5) evaluates to: " +  !(x>5) );
+console.log("(x>=5) evaluates to: " +  (x>=5) );
+console.log("!(x>=5) evaluates to: " +  !(x>=5) );
+console.log("!(true) evaluates to: " +  !(true) );
+console.log("!(false) evaluates to: " +  !(false) );
+console.log("!(!(false)) evaluates to: " +  !(!(false))  );
+
+let firstVariable = (5> 10);
+
+let secondVariable = (8!=8);
+let thirdVariable = ((!(true) || false) && 5!=8);
+let ferfVariable = !((!firstVariable && secondVariable)||thirdVariable);
+
+console.log("and the winner is! "+ferfVariable);
