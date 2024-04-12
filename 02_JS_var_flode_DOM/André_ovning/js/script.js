@@ -7,7 +7,5 @@ let student = true;
 if (student = true) {
 
     alert("André");
-
-console.log('André');
 }
 
