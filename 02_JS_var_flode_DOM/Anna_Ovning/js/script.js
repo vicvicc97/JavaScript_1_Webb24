@@ -9,3 +9,4 @@ alert (`Jag heter ${namn} och är ${alder}`);
 console.log (namn,alder,student);
 
 console.log ("Hej");
+console.log (typeofnamn);
