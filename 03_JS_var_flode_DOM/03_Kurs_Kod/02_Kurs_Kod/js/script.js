@@ -21,7 +21,6 @@ console.log("-------------------------------------------------------------------
 
 
 
-
 // -1 increment
 console.log(`
         for (let index = 10; index > 0; index--) { //<- index -- is the same as i = i - 1;
