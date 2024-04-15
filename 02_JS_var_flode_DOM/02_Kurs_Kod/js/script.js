@@ -132,4 +132,4 @@ let secondVariable = (8!=8);
 let thirdVariable = ((!(true) || false) && 5!=8);
 let ferfVariable = !((!firstVariable && secondVariable)||thirdVariable);
 
-console.log("and the winner is! "+ferfVariable);
+console.log(ferfVariable + "and the winner is! "+ferfVariable);
