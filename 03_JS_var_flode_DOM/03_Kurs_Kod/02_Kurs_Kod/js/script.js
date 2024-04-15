@@ -14,7 +14,7 @@ for (let index = 0; index < 10; index++) { //<- index ++ is the same as i = i + 
     console.log("index = " + index);
 }
 console.log("Stoping loop index = 10");
-
+ 
  
   
 console.log("----------------------------------------------------------------------------------------");
