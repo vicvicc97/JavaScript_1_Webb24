@@ -13,10 +13,9 @@ else if (robAge > bobAge && robAge > zobAge) {
 else if (zobAge > bobAge && zobAge > robAge) {
     console.log("Zob är äldst");
 }
-else if (zobAge === bobAge ||zobAge === robAge || robAge === bobAge ){
-    console.log("Det är lika mellan vissa personer")
-}
 else if (zobAge === robAge && robAge === bobAge && zobAge === bobAge) {
     console.log("Alla har samma ålder");
 }
-
+else if (zobAge === bobAge || zobAge === robAge || robAge === bobAge){
+    console.log("Det är lika mellan vissa personer");
+}
