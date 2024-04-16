@@ -232,6 +232,6 @@ let h1 = document.getElementById("h1");
 
 for (let index = 0; index < 10; index++) {
     let p = document.createElement("p");
-    p.textContent = index;
+    p.innerText = index;
     h1.appendChild(p);
 }
