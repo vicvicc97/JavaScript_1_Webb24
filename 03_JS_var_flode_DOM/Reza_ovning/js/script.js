@@ -1,6 +1,6 @@
-let bobAge = 30
-let robAge = 25
-let zobAge = 35
+let bobAge = 30;
+let robAge = 25;
+let zobAge = 35;
 
 if (bobAge > robAge && bobAge > zobAge) {
     console.log('Bob är äldst')
