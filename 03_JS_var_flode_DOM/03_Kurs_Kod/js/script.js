@@ -84,14 +84,14 @@ console.log("-------------------------------------------------------------------
 
 // -1 increment
 console.log(`
-for (let index = 10; index < 200; index = index*2) { 
+for (let index = 10; index < 400; index = index*2) { 
     console.log("index = " + index);
     if(index > 100){
         console.log("Half way done!");
     }
 }
         `);
-console.log("Starting loop from 0 to 100 with *2 increment");
+console.log("Starting loop from 0 to 400 with *2 increment");
 
 for (let index = 10; index < 400; index = index*2) { 
     console.log("index = " + index);
