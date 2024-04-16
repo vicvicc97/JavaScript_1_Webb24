@@ -217,6 +217,13 @@ for (let i = 0; i < 10; i++) {
     console.log(printString);
 }
 
+// multiplication table 5x5
+
+//TODO
+
+// sum of odd numbers 0-100
+
+//TODO
 
 //DOM-----------------------------------------------------------
 
