@@ -52,7 +52,7 @@ console.log(`
         `);
 console.log("Starting loop from 0 to 9 with +1 increment");
 
-for (let index = 0; index < 10; index++) { //<- index ++ is the same as i = i + 1;
+for (let index = 0; index < 10; index = index + 3) { //<- index ++ is the same as i = i + 1;
     console.log("index = " + index);
 }
 console.log("Stoping loop index = 10");
@@ -75,6 +75,31 @@ for (let index = 10; index > 0; index--) { //<- index -- is the same as i = i - 
     console.log("index = " + index);
 }
 console.log("Stoping loop index = 0");
+
+
+
+console.log("----------------------------------------------------------------------------------------");
+
+
+
+// -1 increment
+console.log(`
+for (let index = 10; index < 200; index = index*2) { 
+    console.log("index = " + index);
+    if(index > 100){
+        console.log("Half way done!");
+    }
+}
+        `);
+console.log("Starting loop from 0 to 100 with *2 increment");
+
+for (let index = 10; index < 400; index = index*2) { 
+    console.log("index = " + index);
+    if(index > 100){
+        console.log("Half way done!");
+    }
+}
+
 
 
 
