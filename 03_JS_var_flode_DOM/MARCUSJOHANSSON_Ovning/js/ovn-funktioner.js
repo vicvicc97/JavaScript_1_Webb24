@@ -1,7 +1,7 @@
 let bobAge = 30;
 let robAge = 25;
 let zobAge = 35;
-let msg = "Tja!"
+let msg = "Tja!";
 
 if (bobAge === robAge && bobAge === zobAge){
     console.log(msg + " Alla har samma ålder!");
