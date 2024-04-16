@@ -39,70 +39,72 @@ if(bobAge == robAge && bobAge == zobAge && robAge == zobAge){
 
 console.log("0-9");
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
 for(let i = 0; i < 10 ; i++){
     console.log(i);
 }
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
 // 111-133
 
 console.log("111-133");
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
  for(let i = 111; i < 134 ; i++){
     console.log(i);
 }
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
 // 20-15
 
 console.log("20-15");
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
  for(let i = 20; i > 14 ; i--){
     console.log(i);
 }
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
 // 50-0 5 steg
 
 console.log("50-0 5 steg");
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
  for(let i = 50; i > -5 ; i = i-5){
     console.log(i);
 }
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
 // 1-128 *2
 
 console.log("1-128 *2");
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
   for(let i = 1; i <= 128 ; i = i*2){
     console.log(i);
 }
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
 // Jämna Tal 0-50
 
 console.log("Jämna Tal 0-50");
 
-console.log("////////////////////////////////////////////////");
+console.log("");
 
 for(let i = 0; i < 52; i++){
     if (i%2 == 0) {
         console.log(i);
     }
 }
+
+////////////////////////////////////////////////////////////////
