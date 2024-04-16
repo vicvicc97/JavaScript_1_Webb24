@@ -5,7 +5,7 @@ let msg = "Tja!"
 
 if (bobAge === robAge && bobAge === zobAge){
     console.log(msg + " Alla har samma ålder!")
-} else if (bobAge === robAge || bobAge === zobAge || robAge === bobAge || robAge === zobAge || zobAge === bobAge || zobAge === robAge){
+} else if (bobAge === robAge && bobAge > zobAge || robAge === bobAge && robAge > zobAge || zobAge === bobAge && zobAge > robAge){
     console.log(msg + " Det är lika mellan vissa personer.")
 } else {
     if (bobAge > robAge && bobAge > zobAge){
