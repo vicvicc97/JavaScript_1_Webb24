@@ -3,9 +3,9 @@ let robAge = 25;
 let zobAge = 35;
 
 
-if (zobAge > bobAge && robAge) {
+if (zobAge > bobAge && zobAge > robAge) {
     console.log("Zob är äldst");
-} else if(robAge > bobAge && zobAge){
+} else if(robAge > bobAge && robAge > zobAge){
     console.log("Rob är älds");
 }else{
     console.log("Bob är äldst");
