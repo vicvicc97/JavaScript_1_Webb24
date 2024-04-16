@@ -1,6 +1,6 @@
 let bobAge = 30;
-let robAge = 30;
-let zobAge = 30;
+let robAge = 25;
+let zobAge = 35;
 let msg = "Tja!"
 
 if (bobAge === robAge && bobAge === zobAge){
