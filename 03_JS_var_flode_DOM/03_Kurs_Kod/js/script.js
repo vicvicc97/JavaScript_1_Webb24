@@ -181,9 +181,57 @@ console.log(`
     `);
 
 for (let i = 0; i < 10; i++) {
+    let center = 4;
     let printString = "";
-    for (let j = i; j >= 0; j--) {
-        printString = printString + "*";
+    for (let j = 0; j < 10; j++) {
+        if(j >= center+(i*-1) && j <= center+i){
+            printString = printString + "*";
+        }else{
+            printString = printString + " ";
+        }
+
+    }
+    console.log(printString);
+}
+console.log("----------------------------------------------------------------------------------------");
+
+
+
+// complex loop
+console.log(`
+        for (let i = 0; i < 10; i++) {
+            let printString = "";
+            for (let j = i; j >= 0; j--) {
+                printString = printString + "*";
+            }
+            console.log(printString);
+        }
+    `);
+
+for (let i = 0; i < 10; i++) {
+    let printString = "";
+    for (let j = (i/2)*-1; j < 10; j++) {
+          printString = printString + "*";  
+        
+    }
+    console.log(printString);
+}
+
+for (let i = 0; i < 10; i++) {
+    let printString = "";
+    let j = 0;
+    for (j; j < 10 - i; j++) {
+          printString = printString + " ";  
+        
+    }
+    let h = 0;
+    for (h; h <= i; h++) {
+        printString = printString + "*";  
+      
+    }
+    for (let m = 0; m < i; m++) {
+        printString = printString + "*";  
+      
     }
     console.log(printString);
 }
