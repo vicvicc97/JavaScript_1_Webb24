@@ -107,6 +107,43 @@ console.log("-------------------------------------------------------------------
 
 
 
+// modulus 5
+console.log(`
+for (let index = 1; index < 100; index++) { 
+
+    console.log(index + "%5 = " + (index%5) );
+
+}
+        `);
+console.log("Starting loop from 0 to 400 with *2 increment");
+
+for (let index = 1; index < 100; index++) { 
+
+        console.log(index + "%5 = " + (index%5) );
+    
+}
+console.log("----------------------------------------------------------------------------------------");
+
+
+
+// modulus 5
+console.log(`
+for (let index = 0; index < 50; index++) { 
+
+    if(index%2 === 0){
+        console.log(index);
+    }
+}
+        `);
+console.log("logg even numbers");
+
+for (let index = 0; index < 50; index++) { 
+        if(index%2 === 0){
+            console.log(index);
+        }
+}
+
+
 // nested loops
 console.log(`
         for (let i = 0; i < 10; i++) {
@@ -116,10 +153,13 @@ console.log(`
         }
     `);
 
-for (let i = 0; i < 10; i++) {
-    for (let j = 0; j < 10; j++) {
-        console.log("i = " + i + " : j = " + j);
+
+for (let row = 0; row < 10; row++) {
+    let cell ="";
+    for (let col = 0; col < 10; col++) {
+        cell += "|" + row + " " + col + "|";
     }
+    console.log(cell);
 }
 
 
