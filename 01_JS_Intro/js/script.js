@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 
 // one row comment
 // tregtdhfd
@@ -16,21 +15,6 @@ const defines a variable that is a constant.
 Variable that can have values true, or false are booleans
 */
 
-<<<<<<< HEAD
-alert("This is a popup");
-console.log(sum);
-=======
-//one row comment//
-
-let suma = 5+2;
-
-
-console.log (suma);
-
-
-
->>>>>>> Stashed changes
-=======
 let suma = 2 + 2; // this is a sum of two values
 const namn = "Lukas";
 let isStudent = false;
@@ -149,4 +133,3 @@ let thirdVariable = ((!(true) || false) && 5 != 8);
 let ferfVariable = !((!firstVariable && secondVariable) || thirdVariable);
 
 console.log("and the winner is! " + ferfVariable);
->>>>>>> 3d1c945b85c164ba5fed6b285b077cc7d02ab1e4
