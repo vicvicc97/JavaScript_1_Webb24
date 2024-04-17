@@ -13,3 +13,19 @@ for (let i=0; i < 101; i++ ) {
      console.log (i);
     } 
  }
+
+ let body = document.querySelector("body");
+ body.style.backgroundColor = "lightgrey";
+
+ //append child node to the body element
+let h1 = document.createElement("h1");// create new element
+h1.innerText = "funny"; //add text to new element
+h1.id = "ID";//add id attribute to new element
+//append new element to body
+body.appendChild(h1);
+
+let textp =document.createElement ("p");
+textp.innerText = "this is a funny text";
+textp.id = "pID";
+
+body.appendChild(textp)
