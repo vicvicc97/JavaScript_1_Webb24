@@ -9,7 +9,6 @@ for (let row = 1; row <= 5; row++) {
     console.log(cell);
 }
 
-
 console.log("---------------------------------------------");
 
 let sum = 0;
