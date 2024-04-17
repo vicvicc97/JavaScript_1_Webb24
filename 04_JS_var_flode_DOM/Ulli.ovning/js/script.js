@@ -10,16 +10,21 @@ for (let row = 1; row < 6; row++) {
 
 */
 
-let body =  document.querySelector("body");
+
+console.log("hej");
+
+let body =  document.getElementsByTagName("body")[0]
+//document.createElement("body"); //document.body
 body.style.backgroundColor = "rgb(211,211,211)";
+//body.appendChild(body)
 
 
-
-let myHeader =  document.querySelector("h1");
+let myHeader =  document.createElement("h1");
 myHeader.innerText = "this is the new header text";
+body.appendChild(myHeader)
 
 
-
-let myParaghraph =  document.querySelector("p");
+let myParaghraph =  document.createElement("p");
 myParaghraph.innerText = "this is the new paragraph";
+body.appendChild(myParaghraph);
 
