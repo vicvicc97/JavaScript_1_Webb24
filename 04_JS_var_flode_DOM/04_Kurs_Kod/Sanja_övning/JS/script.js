@@ -1,14 +1,11 @@
 
 
 
-for (let row=0; row<5; row++) {
+for (let i = 1; i <= 5; i++) {
+    
+    for (let j = 1; j <= 5; j++) {
 
-    let cell="";
-
-    for (let col=0; col<5; col++) {
-
-        cell = cell + "|" + row + " " + col + "|";
+      console.log(i + " * " + j + " = " + i * j);
     }
-
-    console.log(cell);
-}
+  }
+  
