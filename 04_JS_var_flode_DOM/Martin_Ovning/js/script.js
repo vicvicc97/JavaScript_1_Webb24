@@ -24,3 +24,16 @@ console.log("---------------------------------");
 
 /* F2 shortcut för att ändra till exempel alla variabler med samma namn  */
 
+let body = document.querySelector("body");
+
+body.style.backgroundColor = "green";
+
+let p = document.createElement("p")
+let h1 = document.createElement("h1")
+
+p.innerText += "Hello World";
+h1.innerText += "Header";
+
+body.appendChild(h1)
+body.appendChild(p)
+
