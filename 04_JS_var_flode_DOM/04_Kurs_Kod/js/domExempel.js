@@ -32,16 +32,14 @@ console.log(myHeader.classList);
 let header1 = document.getElementById("myHeader");
 
 //append child node to the body element
-let newH2 = document.createElement("h2");
-newH2.innerText = "this is the newH2  appenndddeddd";
-newH2.id = "newID";
-
+let newH2 = document.createElement("h2");// create new element
+newH2.innerText = "this is the newH2  appenndddeddd"; //add text to new element
+newH2.id = "newID";//add id attribute to new element
+//append new element to body
 body.appendChild(newH2);
 
-for (let index = 0; index < myHeader.attributes.length; index++) {
-    console.log(myHeader.attributes[index]);
-}
 
+//create and add 100 new p elements to body
 for (let index = 0; index < 100; index++) {
     let newP = document.createElement("p");
     newP.innerText = index;
