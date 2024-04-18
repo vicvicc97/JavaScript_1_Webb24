@@ -45,13 +45,19 @@ console.log("---------------------------------");
 let body = document.querySelector("body");
 
 let nav = document.createElement("nav");
+nav.style.backgroundImage = "url(../resources/hero-img.jpg)";
+nav.style.height = "300px";
+nav.style.backgroundPosition = "center";
+nav.style.backgroundSize = "cover";
+
+body.appendChild(nav);
 
 
 let table = document.createElement("table");
 table.style.border = "2px solid black"
 table.style.width = "50%";
 table.style.height = "100px";
-table.style.margin = "30vh auto 0 auto"
+table.style.margin = "5px auto 0 auto"
 table.style.borderCollapse = "collapse";
 
 let rowCount = 5;
