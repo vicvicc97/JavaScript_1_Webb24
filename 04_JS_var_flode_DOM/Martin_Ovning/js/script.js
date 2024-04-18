@@ -44,6 +44,9 @@ console.log("---------------------------------");
 
 let body = document.querySelector("body");
 
+let nav = document.createElement("nav");
+
+
 let table = document.createElement("table");
 table.style.border = "2px solid black"
 table.style.width = "50%";
@@ -91,7 +94,7 @@ for (let row = 0; row < rowCount; row++) {
     
 }
 
-document.getElementById("34").innerText = "text"
+document.getElementById("34").innerText = "nr"
 
 let headers = document.getElementsByTagName("th");
 let headersData = ["name", "job", "bil", "cat", "dog"];
