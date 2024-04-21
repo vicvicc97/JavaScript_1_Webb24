@@ -60,7 +60,7 @@ body.appendChild(nav);
 // Skapade h1 tagg med id = "h1" 
 
 let h1 = document.createElement("h1");
-h1.id = "h1";
+h1.setAttribute("id", "h1");
 h1.innerHTML = "04_JS_var_flode_DOM";
 h1.style.textAlign = "center";
 h1.style.backgroundColor = "lightblue";
