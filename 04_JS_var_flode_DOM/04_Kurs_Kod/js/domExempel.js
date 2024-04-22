@@ -25,7 +25,8 @@ console.log(myHeader.attributes);
 
 //add class 
 myHeader.classList.add("myHeaderClass");
-
+myHeader.innerText = "Inner Text\n";
+myHeader.textContent = "text content";
 //
 console.log(myHeader.classList);
 
@@ -116,5 +117,16 @@ header4.innerText = "ferf col";
 //change text of an element with id 34
 document.getElementById(`34`).innerText = "text";
 
+let allElements = document.getElementsByTagName("*");
+
+for (let index = 0; index < allElements.length; index++) {
+    allElements[index].style.backgroundColor = "red";
+    
+}
+
+Array(allElements).forEach(element => {
+    console.log(element);
+});
 
 
+console.log();
