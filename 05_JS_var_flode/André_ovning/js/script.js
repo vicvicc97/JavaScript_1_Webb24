@@ -1,16 +1,50 @@
+//ovning genomgång
+let txt1 = " Mobiltelefon, 299,  ";
+
+let txt1Product = txt1.substring(1,13);
+let txt1Price = txt1.substring(12,19);
+console.log("txt1Product: " + txt1Product);
+console.log("txt1Price:" +  txt1Price);
+txt1Product = txt1Product.toUpperCase();
+txtPrice = Number.parseInt();
+console.log("txt1Product: " + txt1Product);
+console.log("txt1Price:" + typeof txt1Price);
+
+
+let txtSplit = txt1.split(",");
+console.log(txtSplit);
+for (let i = 0; i < txtSplit.length; i++){
+    txtSplit [i] = txtSplit [i].trim();
+}
+console.log(txtSplit)
+txtSplit[0] = txtSplit[0].toUpperCase();
+txtSplit[1] = Number.parseInt(txtSplit[1]);
+console.log("txt1Product: " + txt1Product);
+console.log("txt1Price:" + typeof txt1Price);
+if(txt1Product.includes("TELEFON")){
+    console.log("variable" + txt1Product + "contains the word telehone")
+}else{
+    console.log("variable" + txt1Product + "does not contain word");
+}
+
+txt1 = txt1.replaceAll(",", "-");
+
+
+
+//ovning
 let txt2 = " Mobiltelefon, 299,        ";
 let result = txt2.trim();
 console.log(result);
 
+
+
+let txt222 = txt2.split(", ");
+console.log(txt222);
 console.log(txt2.slice(15));
 console.log(txt2.toUpperCase());
 let txt22 = txt2.replace(',' , "-")
 console.log(txt22);
 console.log(txt2.includes('telefon'));
-
-
-
-
 
 
 
