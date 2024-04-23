@@ -1,4 +1,4 @@
-console.log("Power: " + (Math.pow(10,2)));
+/* console.log("Power: " + (Math.pow(10,2)));
 console.log("Random: " + Math.random());
 console.log("Random: " + Math.random()*10);
 console.log("");
@@ -38,4 +38,28 @@ console.log("Svaret är: " + hero);
 
 let meddelande="Hej John";
 let nyttMeddelande = meddelande.replace('John', "Johnny");
-console.log(nyttMeddelande);
+console.log(nyttMeddelande); */
+
+// Slut uppgift
+let txt1 = " Skärmkydd, 499";
+let txt2 = "Mobiltelefon,299, ";
+let txt3 = " Telefonfodral, 89";
+let txt4 = "Laptop,  799";
+let txt5 = "Hörlurar , 199 ";
+
+console.log(txt1.substring(1, 10));
+console.log(txt1.substring(12, 16));
+console.log(txt2.substring(0, 12));
+console.log(txt2.substring(13, 16));
+console.log(txt3.substring(1, 14));
+console.log(txt3.substring(16, 18));
+console.log(txt4.substring(0, 6));
+console.log(txt4.substring(9, 12));
+console.log(txt5.substring(0, 8));
+console.log(txt5.substring(11, 14));
+
+console.log(txt1.trim());
+console.log(txt2.trim());
+console.log(txt3.trim());
+console.log(txt4.trim());
+console.log(txt5.trim());
