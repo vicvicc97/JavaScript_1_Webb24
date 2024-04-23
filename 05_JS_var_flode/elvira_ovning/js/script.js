@@ -40,7 +40,7 @@ let meddelande="Hej John";
 let nyttMeddelande = meddelande.replace('John', "Johnny");
 console.log(nyttMeddelande); */
 
-// Slut uppgift
+// Slutuppgift
 let txt1 = " Skärmkydd, 499";
 let txt2 = "Mobiltelefon,299, ";
 let txt3 = " Telefonfodral, 89";
@@ -63,3 +63,32 @@ console.log(txt2.trim());
 console.log(txt3.trim());
 console.log(txt4.trim());
 console.log(txt5.trim());
+
+console.log(Number.parseInt(txt1.substring(12,16)));
+console.log(Number.parseInt(txt2.substring(13,16)));
+console.log(Number.parseInt(txt3.substring(16, 18)));
+console.log(Number.parseInt(txt4.substring(9, 12)));
+console.log(Number.parseInt(txt5.substring(11, 14)));
+
+console.log(txt1.toUpperCase());
+console.log(txt2.toUpperCase());
+console.log(txt3.toUpperCase());
+console.log(txt4.toUpperCase());
+console.log(txt5.toUpperCase());
+
+let nytttxt1 = txt1.replace(',', "-");
+let nytttxt2 = txt2.replaceAll(',', "-");
+let nytttxt3 = txt3.replace(',', "-");
+let nytttxt4 = txt4.replace(',', "-");
+let nytttxt5 = txt5.replace(',', "-");
+console.log(nytttxt1);
+console.log(nytttxt2);
+console.log(nytttxt3);
+console.log(nytttxt4);
+console.log(nytttxt5);
+
+if (txt2.includes("telefon")) {
+    console.log("Answer is " + txt2)
+}else {
+    console.log("Answer is false")
+}
