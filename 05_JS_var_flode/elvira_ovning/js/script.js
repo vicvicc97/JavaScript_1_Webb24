@@ -88,7 +88,7 @@ console.log(nytttxt4);
 console.log(nytttxt5);
 
 if (txt2.includes("telefon")) {
-    console.log("Answer is " + txt2)
+    console.log("Answer is true")
 }else {
     console.log("Answer is false")
 }
