@@ -15,10 +15,10 @@ closureEx(); // this will log num
     //Skapa tre funktioner för att hantera maträtter. Istället för att använda listor eller arrayer kommer vi att använda funktioner för att spara och manipulera data
 
     //en funktion för att lägga till en maträtt (counter++)
-let counter = 0; //represent dish count
+let counter = 0; //represents dish count
 
 function addDish(){
-    counter++;
+    counter = counter + 1; //the same as counter++
     console.log("Dish added");
 }
     //en funktion för att räkna antalet tillagda maträtter (log(counter)) 
@@ -32,6 +32,16 @@ function showDishes(){
   }
 }
 
+function removeDish(){
+  counter = counter - 1; //the same as counter--
+  console.log("Dish removed");
+}
+
+function resetDishes(){
+  counter = 0;
+  console.log("Dishes reset")
+}
+
 //excuting functions
 addDish();
 addDish();
@@ -39,6 +49,7 @@ addDish();
 addDish();
 dishCount();
 addDish();
+resetDishes();
 addDish();
 addDish();
 dishCount();
