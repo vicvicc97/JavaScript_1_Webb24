@@ -19,14 +19,30 @@ let counter = 0; //represent dish count
 
 function addDish(){
     counter++;
+    console.log("Dish added");
 }
     //en funktion för att räkna antalet tillagda maträtter (log(counter)) 
-fun
+function dishCount(){
+  console.log(counter);
+}
+  //en funktion för att visa alla tillagda maträtter (for(´${i}  maträtt´)).
+function showDishes(){
+  for (let i = 0; i < counter; i++) {
+    console.log(`${i}  maträtt`);
+  }
+}
 
+//excuting functions
 addDish();
 addDish();
 addDish();
 addDish();
+dishCount();
+addDish();
+addDish();
+addDish();
+dishCount();
+showDishes();
 
 
 // onclick example example
